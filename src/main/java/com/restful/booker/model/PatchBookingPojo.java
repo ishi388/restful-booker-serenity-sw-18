@@ -1,23 +1,14 @@
 package com.restful.booker.model;
 
-public class BookingDatesPojo {
+public class PatchBookingPojo {
 
-    private String checkin;
-    private String checkout;
+    private String additionalneeds;
 
-    public String getCheckin() {
-        return checkin;
+    public String getAdditionalneeds() {
+        return additionalneeds;
     }
 
-    public void setCheckin(String checkin) {
-        this.checkin = checkin;
-    }
-
-    public String getCheckout() {
-        return checkout;
-    }
-
-    public void setCheckout(String checkout) {
-        this.checkout = checkout;
+    public void setAdditionalneeds(String additionalneeds) {
+        this.additionalneeds = additionalneeds;
     }
 }

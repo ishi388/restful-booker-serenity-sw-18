@@ -1,6 +1,6 @@
 package com.restful.booker.model;
 
-public class AuthorizationPojo {
+public class AuthorisationPojo {
 
     private String username;
     private String password;
